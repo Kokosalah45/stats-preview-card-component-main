@@ -1,0 +1,29 @@
+.main{
+    &__heading{
+        
+        font-size : var(--fs-primary-700 );
+        font-weight : var(--fw-primary-semiBold);
+        color : var(--clr-mainHeading-stats );
+        .accent{
+            color : var(--clr-accent);
+        }
+    }
+    &__paragraph{
+        
+        line-height: 1.5;
+        color : var(--clr-mainParagraph);
+        font-size : var(--fs-primary-400);
+    }
+    &__stats{
+        &__stat{
+            color : var(--clr-mainHeading-stats );
+            font-size : var(--fs-primary-500); 
+            font-weight : var(--fw-primary-semiBold);
+        }
+        &__heading{
+            color : var(--clr-statHeadings);
+            font-family : var(--ff-secondary);
+            font-size : var(--fs-secondary-400); 
+        }
+    }
+}
