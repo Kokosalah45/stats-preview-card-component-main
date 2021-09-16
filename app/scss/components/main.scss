@@ -1,6 +1,5 @@
 .main{
     display: flex;
-   max-width: 1000px;
    
    border-radius: 10px;
    overflow: hidden;
@@ -14,7 +13,7 @@
         
     }
     &__heading{
-        max-width: 20ch;
+        max-width: 18ch;
         margin-bottom: .5em;
         
     }
@@ -44,7 +43,7 @@
                 position: absolute;
                 inset : 0 0 0 0;    
                 background-color: var(--clr-accent-dark);
-                opacity: 0.4;
+                opacity: 0.5;
     
                
             }
